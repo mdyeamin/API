@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: gainsboro
+}
+
+.input-area{
+    width: 100%;
+    height:200px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+#input-value,input{
+    width: 40%;
+    padding:3px 8px;
+    border-radius: 5px;
+}
+#input-value{
+    border:1px solid aqua;
+}
+#input-value:hover{
+    border:1px solid rgb(129, 198, 255);
+}
+#search-btn, button{
+    background:rgb(129, 198, 255);
+    padding:5px 15px;
+    border-radius: 5px;
+    margin-left: 6px;;
+    border:0; 
+    color:#fff; 
+}
+#search-btn:hover{
+    background: aqua;
+}
+
+/* book style  */
+#all-books{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5%;
+}
+.book-area{
+
+    background: rgba(204, 204, 204, 0.705);
+}
+
+.book{
+    padding:12px;
+    background: rgba(204, 204, 204, 0.705);
+    border-radius: 10px;;
+}
+.book img{
+    padding: 5px;
+    border-radius: 8px;
+width: 100%;
+}
+.book, h3, h5{
+    
+    background: rgba(204, 204, 204, 0.705);
+}
